@@ -1,12 +1,15 @@
-import React from 'react';
-
-
-const Annenside = () => {
+const Annenside = (props) => {
     return (
         <div>
-            <h1>Annen Side</h1>
+            <h1>{props.tekst}</h1>
         </div>
     );
 };
+
+Annenside.defaultProps = {
+    tekst: "Hei"
+}
+
+
 
 export default Annenside;

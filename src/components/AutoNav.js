@@ -26,7 +26,7 @@ const Autonav = () => {
               </Link>
           ))}
                 <Typography textAlign="center">
-                <IconButton sx={{ ml: 1 }} onClick={colorMode.toggleColorMode}>
+                <IconButton color='secondary' sx={{ ml: 1 }} onClick={colorMode.toggleColorMode}>
                 {theme.palette.mode === 'dark' ? <Brightness7Icon />:<Brightness4Icon />}
                 </IconButton>
                 </Typography>

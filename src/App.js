@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import IndexPage from './pages/IndexPage';
 import Template from './pages/Template';
 import NoPage from './pages/NoPage';
+import Annenside from './pages/AnnenSide';
 
 const navElements = [
     {
@@ -13,6 +14,11 @@ const navElements = [
         name: "Index",
         element: <IndexPage />,
         isIndex: true
+    },
+    {
+        route: "/annenside",
+        name: "Annen side",
+        element: <Annenside/>,
     }
 ];
 

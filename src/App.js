@@ -19,6 +19,11 @@ const navElements = [
         route: "/annenside",
         name: "Annen side",
         element: <Annenside/>,
+    },
+    {
+        route: "/hei",
+        name: "HeiSide",
+        element: <p>hei</p>
     }
 ];
 

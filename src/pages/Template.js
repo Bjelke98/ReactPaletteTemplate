@@ -2,7 +2,9 @@ import { ThemeProvider } from '@mui/material/styles';
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import AutoNav from '../components/AutoNav';
+
 import { createTheme } from '@mui/material/styles';
+
 import { deepPurple, teal } from '@mui/material/colors';
 
 
